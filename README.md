@@ -113,31 +113,53 @@ Once the repository is created, copy the repository URL. You'll use this URL to 
 
 # STAGE 3 : STEPS FOR DEPLOYING PROJECT FROM VSCODE TO GITHUB
 
-1. **Initialize Git in Your Project:**
+1. *Initialize Git in Your Project:*
    Open your project in VSCode, open the terminal, and run:
    ```bash
    git init
    ```
 
-2. **Add and Commit Changes:**
+2. *Add and Commit Changes:*
    Stage and commit your changes using:
    ```bash
    git add .
    git commit -m "Initial commit"
    ```
 
-3. **Create a New Repository on GitHub:**
+3. *Create a New Repository on GitHub:*
    Go to GitHub and create a new repository.
 
-4. **Link Local Repository to GitHub:**
+4. **Link Local Repository to GitHub:*
    In the terminal, run:
    ```bash
    git remote add origin <repository_url>
    git branch -M main
    ```
 
-5. **Push Your Code to GitHub:**
+5. **Push Your Code to GitHub:*
    Push your committed changes to the GitHub repository:
    ```bash
    git push -u origin main
    ```
+# STAGE 4 : STEPS FOR DEPLOYING WEBSITE ON AZURE STATIC WEB APP
+
+*1. Create an Azure Account:*
+Sign up for an Azure account if you don't have one at Azure Portal.
+
+*2. Navigate to Azure Static Web Apps:*
+In the Azure Portal, go to the "Create a resource" section and search for "Static Web Apps."
+
+*3. Create a New Static Web App:*
+Click on "Static Web Apps" and then "Add." Fill in the required details, including your GitHub repository and branch.
+
+*4. Configure Build Details:*
+Configure the build details, such as the build command and output location. This is often set to "build" for many web applications.
+
+*5. Review and Create:*
+Review your configuration and click "Review + create." Once validated, click "Create."
+
+*6. Wait for Deployment:*
+Azure will deploy your static web app. Wait for the deployment to complete.
+
+*7. Access Your Website:*
+Once deployed, go to the Static Web Apps resource in the Azure Portal, find the "URL" under the "Overview" section, and access your website.
