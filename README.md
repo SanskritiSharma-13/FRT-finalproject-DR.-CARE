@@ -36,10 +36,10 @@ Visual Studio Code
 
 # AZURE CORE SERVICES USED :
 
-*1. Azure Static Web Apps:*
+*1. AZURE STATIC WEB APPS:*
    Dr. Care utilizes Azure Static Web Apps to host its platform, ensuring high performance, scalability, and security. This service allows for seamless deployment and delivery of the web application, providing users with a fast and reliable experience.
 
-*2. Azure Storage Accounts:*
+*2. AZURE STORAGE ACCOUNTS:*
    Azure Storage Accounts are employed to efficiently manage and store data within Dr. Care. This includes user information, health-related data, and other essential details. The use of Azure Storage ensures data integrity, availability, and secure access, contributing to a robust healthcare platform.
 
 
