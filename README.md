@@ -271,14 +271,14 @@ Validate your Health Bot within Azure and integrate it into your applications or
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/432ad8a2-460b-47e4-94e6-98668232e9d5)
 
 # STAGE 8 : STEPS FOR INTEGRATING HEALTHBOT TO YOUR WEBSITE
+ 
+ 1. Once the resource is created, open the health bot management portal using the provided “Management portal link”.
 
-1. Once the resource is created, open the health bot management portal using the provided “Management portal link”.
+ 2. In the management portal, navigate to “Template Catalog” in the sidebar.
 
-2. In the management portal, navigate to “Template Catalog” in the sidebar.
+ 3. Here, you will find various templates grouped by categories. Select a template that suits your requirements and click on “Open”.
 
-3. Here, you will find various templates grouped by categories. Select a template that suits your requirements and click on “Open”.
-
-4. Click on “Import” from the pop-up window to import the selected template.
+ 4. Click on “Import” from the pop-up window to import the selected template.
 
 *5. Get Bot Secret:*
 In the Azure Portal, go to your Health Bot resource, navigate to "Channels," and get the Bot Secret.
