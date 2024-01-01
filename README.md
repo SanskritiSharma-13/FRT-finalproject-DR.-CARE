@@ -167,3 +167,9 @@ Azure will deploy your static web app. Wait for the deployment to complete.
 *7. Access Your Website:*
 Once deployed, go to the Static Web Apps resource in the Azure Portal, find the "URL" under the "Overview" section, and access your website.
 
+**MY WEBSITE URL :** https://polite-mud-07eb40610.4.azurestaticapps.net
+
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/ab9b7802-c414-4ab1-9733-10fed49b3493)
+
+# STAGE 5 : STEPS FOR USING STORAGE ACCOUNTS
+
