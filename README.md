@@ -53,9 +53,13 @@ Visual Studio Code
 
 # OTHER AZURE SERVICE USED :
 
-*1. AZURE MAPS : 
+*1. AZURE MAPS :* 
 
     Dr. Care harnesses the capabilities of Azure Maps to enhance location-based services. By integrating Azure Maps, users can seamlessly locate nearby healthcare facilities, clinics, and pharmacies. This geospatial service adds a valuable dimension to Dr. Care, providing accurate and relevant information based on the user's geographical location. The inclusion of Azure Maps enhances the platform's functionality, making it a comprehensive and user-centric healthcare solution.
+
+*2. AZURE RESOURCE GROUP :*
+
+    Azure Resource Group in Dr. Care project organizes, deploys, and manages resources—such as Azure Static Web Apps, Storage Accounts, Azure Maps, and Health Bot—providing streamlined deployment, simplified scaling, cost tracking, and enhanced security.
 
 # STAGE 1 : STEPS FOR MAKING PROJECT ON VSCODE 
 
