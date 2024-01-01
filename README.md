@@ -79,6 +79,9 @@ Visual Studio Code
 
 *10. Run Your Project:* Test your project using a server or extensions like "Live Server."
 
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/799c85ca-c2ac-43b6-a652-02f35bcb0e8b)
+
+
 # STAGE 2 : MAKE A GITHUB REPOSITORY
 
 *1. Create a GitHub Account:*
@@ -129,14 +132,14 @@ Once the repository is created, copy the repository URL. You'll use this URL to 
 3. *Create a New Repository on GitHub:*
    Go to GitHub and create a new repository.
 
-4. **Link Local Repository to GitHub:*
+4. *Link Local Repository to GitHub:*
    In the terminal, run:
    ```bash
    git remote add origin <repository_url>
    git branch -M main
    ```
 
-5. **Push Your Code to GitHub:*
+5. *Push Your Code to GitHub:*
    Push your committed changes to the GitHub repository:
    ```bash
    git push -u origin main
@@ -163,3 +166,4 @@ Azure will deploy your static web app. Wait for the deployment to complete.
 
 *7. Access Your Website:*
 Once deployed, go to the Static Web Apps resource in the Azure Portal, find the "URL" under the "Overview" section, and access your website.
+
