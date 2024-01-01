@@ -309,9 +309,65 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--advantages end here-->
 
 <!--map start here-->
-<div class="map">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3150859.767904157!2d-96.62081048651531!3d39.536794757966845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1408111832978"> </iframe>
-</div>
+<script type="text/javascript" src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+<div id="myMap" style="height: 400px;"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+    <title>Azure Maps Example</title>
+</head>
+<body>
+
+    <div id="myMap" style="height: 400px;"></div>
+
+    <script type="text/javascript">
+        function initializeMap(center, zoom, subscriptionKey) {
+            var map, datasource;
+
+            map = new atlas.Map('myMap', {
+                center: center,
+                zoom: zoom,
+                view: 'Auto',
+                authOptions: {
+                    authType: 'subscriptionKey',
+                    subscriptionKey: subscriptionKey
+                }
+            });
+
+            datasource = new atlas.source.DataSource();
+            map.sources.add(datasource);
+
+            var layer = new atlas.layer.SymbolLayer(datasource, null, {
+                iconOptions: {
+                    image: 'pin-round-blue',
+                    anchor: 'center',
+                    allowOverlap: true
+                }
+            });
+
+            map.layers.add(layer);
+
+            var point = new atlas.data.Point(center);
+            datasource.add(new atlas.data.Feature(point));
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Adjust these parameters as needed
+            var mapCenter = [-122.33, 47.6];
+            var mapZoom = 12;
+            var azureMapsSubscriptionKey = 'HNcxOPslcDWrMTDxXgXwLScCdoSNTnRd7dBaVsnxiIY';
+
+            // Call the initializeMap function with the parameters
+            initializeMap(mapCenter, mapZoom, azureMapsSubscriptionKey);
+        });
+    </script>
+</body>
+</html>
+
+
 <!--map end here-->
 <!--footer strat here-->
 <div class="footer">
@@ -353,3 +409,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </div>
 <!--footer end here-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Health Bot Integration</title>
+    <!-- Include the Health Bot Web Chat control script -->
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat-es5.js"></script>
+    <style>
+        /* Additional styling for the webchat container */
+        #webchat {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dr. Care Health Bot </h1>
+
+    <!-- Container for the Web Chat control -->
+    <div id="webchat"></div>
+
+    <script>
+        // Replace 'YOUR_DIRECT_LINE_SECRET' with your Health Bot Web Chat secret
+        const directLineSecret = 'k_4jI3Ghwyg.Zcs4g9IcG8Z5paCw7Goq3eHvbCcpkqXS-VGmZ5FZuf0';
+
+        // Set up the Web Chat control
+        window.WebChat.renderWebChat({
+            directLine: window.WebChat.createDirectLine({ token: directLineSecret }),
+        }, document.getElementById('webchat'));
+    </script>
+</body>
+</html>
