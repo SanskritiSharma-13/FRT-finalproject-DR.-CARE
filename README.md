@@ -15,7 +15,9 @@ Users can effortlessly check symptoms through an intelligent conversational inte
 Visual Studio Code
 # TECHNOLOGY USED :
 1.HTML
+
 2.CSS
+
 3.Javascript
 # AZURE CORE SERVICES USED :
 1.Azure Static Web Apps: 
