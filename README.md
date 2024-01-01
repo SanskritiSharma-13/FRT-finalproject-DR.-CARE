@@ -1,4 +1,4 @@
-# PROJECT TITLE
+ # PROJECT TITLE
 
 Dr. Care: Your Holistic Health Hub
 
@@ -280,25 +280,25 @@ Validate your Health Bot within Azure and integrate it into your applications or
 
  4. Click on “Import” from the pop-up window to import the selected template.
 
-*5. Get Bot Secret:*
+ *5. Get Bot Secret:*
 In the Azure Portal, go to your Health Bot resource, navigate to "Channels," and get the Bot Secret.
 
-*6. Configure Web Chat:*
+ *6. Configure Web Chat:*
 If using Web Chat, include the Bot Secret and your Web Chat secret in your website's code.
 
-*7. Implement Direct Line Integration:*
+ *7. Implement Direct Line Integration:*
 For a custom integration, use the Direct Line API. Obtain the Direct Line secret from the Azure Portal and implement the integration in your website's code.
 
-*8. Include Health Bot Script:*
+ *8. Include Health Bot Script:*
 Add the Health Bot Web Chat script to your website's HTML. Customize the script with your Bot ID and other relevant details.
 
-*9. Initialize Web Chat:*
+ *9. Initialize Web Chat:*
 In your website's JavaScript, initialize the Web Chat with the required settings, including the Bot ID and Secret.
 
-*10. Handle User Interactions:*
+ *10. Handle User Interactions:*
 Implement the necessary logic to handle user interactions and messages sent to and received from the Health Bot.
 
-*11. Test Integration:*
+ *11. Test Integration:*
 Test the Health Bot integration on your website to ensure that user inputs are correctly processed, and responses are displayed.
 
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/97fa381e-08c5-4c61-9a64-c6c52c65e032)
