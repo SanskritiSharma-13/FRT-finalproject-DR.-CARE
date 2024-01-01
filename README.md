@@ -116,19 +116,18 @@ Once the repository is created, copy the repository URL. You'll use this URL to 
 1. Download Git if not downloaded.
 
 2. Open your project in VSCode, open the terminal, and run:
-
    git init
 
-3. Stage and commit your changes using:
-
+4. Stage and commit your changes using:
    git add .
    git commit -m "Initial commit"
 
-4. Go to GitHub and create a new repository or add a created repository.
 
+5. Go to GitHub and create a new repository or add a created repository.
    git remote add origin <repository_url>
    git branch -M main
 
-5. Push your committed changes to the GitHub repository:
 
+6. Push your committed changes to the GitHub repository:
    git push -u origin main
+
