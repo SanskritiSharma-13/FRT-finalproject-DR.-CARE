@@ -8,7 +8,7 @@ Welcome to Dr. Care, a revolutionary healthcare platform leveraging technology a
 
 # EXPLORE YOUR WELL-BEING: VISIT DR. CARE TODAY!
 
-https://polite-mud-07eb40610.4.azurestaticapps.net
+**PROJECT ON AZURE:** https://polite-mud-07eb40610.4.azurestaticapps.net
 
 # PURPOSE
 
@@ -199,6 +199,8 @@ Once deployed, go to the "Storage accounts" section in the Azure Portal, click o
 Go to containers in data storage and upload files by drag and drop.
 
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/84241e4a-1361-4f5c-839e-ef3aa22c2752)
+
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/8d58d22f-fb8b-4c88-a0d4-bbd76cc18c46)
 
 # STAGE 6 : STEPS FOR USING AZURE MAPS
 
