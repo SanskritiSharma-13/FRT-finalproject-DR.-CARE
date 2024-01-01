@@ -57,7 +57,7 @@ Visual Studio Code
 
     Dr. Care harnesses the capabilities of Azure Maps to enhance location-based services. By integrating Azure Maps, users can seamlessly locate nearby healthcare facilities, clinics, and pharmacies. This geospatial service adds a valuable dimension to Dr. Care, providing accurate and relevant information based on the user's geographical location. The inclusion of Azure Maps enhances the platform's functionality, making it a comprehensive and user-centric healthcare solution.
 
-# STAGE 1 : MAKING PROJECT ON VSCODE :
+# STAGE 1 : STEPS FOR MAKING PROJECT ON VSCODE 
 
 *1. Install VSCode:* Download and install Visual Studio Code.
 
@@ -78,4 +78,36 @@ Visual Studio Code
 *9. Save Changes:* Save your work frequently.
 
 *10. Run Your Project:* Test your project using a server or extensions like "Live Server."
+
+# STAGE 2 : MAKE A GITHUB REPOSITORY
+
+*1. Create a GitHub Account:*
+Sign up for a GitHub account if you don't have one at GitHub.
+
+*2. Log in to GitHub:*
+Log in to your GitHub account.
+
+*3. Click on the "+" Icon:*
+In the top right corner of the GitHub page, click on the "+" icon, and select "New repository" from the dropdown menu.
+
+*4. Enter Repository Name:*
+Choose a name for your repository. This should be a descriptive and concise name for your project.
+
+*5. Add Description:*
+Optionally, provide a short description of your repository.
+
+*6. Initialize this repository with a README (Optional):*
+If you want to add a README file immediately, check the "Initialize this repository with a README" option.
+
+*7. Choose a .gitignore:*
+If your project uses a specific programming language or framework, you can select a relevant .gitignore file to exclude unnecessary files from version control.
+
+*8. Choose a License:*
+If you want to specify a license for your project, select one from the provided options.
+
+*9. Click on "Create Repository":*
+Click the green "Create repository" button to create your GitHub repository.
+
+*10. Copy Repository URL:*
+Once the repository is created, copy the repository URL. You'll use this URL to connect your local project to the GitHub repository.
 
