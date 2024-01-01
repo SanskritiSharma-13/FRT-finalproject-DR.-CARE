@@ -171,5 +171,64 @@ Once deployed, go to the Static Web Apps resource in the Azure Portal, find the 
 
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/ab9b7802-c414-4ab1-9733-10fed49b3493)
 
-# STAGE 5 : STEPS FOR USING STORAGE ACCOUNTS
+# STAGE 5 : STEPS FOR USING AZURE STORAGE ACCOUNTS
 
+
+*1. Navigate to Azure Portal:*
+Go to the Azure Portal and log in.
+
+*2. Create a New Storage Account:*
+Click on "Create a resource," search for "Storage account," and select "Storage account - blob, file, table, queue."
+
+*3. Fill in Storage Account Details:*
+Provide the required details, including the subscription, resource group(same resource group as static web app), unique storage account name, location, and performance options.
+
+*4. Configure Advanced Settings (Optional):*
+Adjust advanced settings like the replication method, access tier, and networking configuration based on your requirements.
+
+*5. Review and Create:*
+Review your configuration, click "Review + create," and then click "Create."
+
+*6. Wait for Deployment:*
+Azure will deploy your storage account. Wait for the deployment to complete.
+
+*7. Access Storage Account:*
+Once deployed, go to the "Storage accounts" section in the Azure Portal, click on your newly created storage account, and explore its settings.
+
+*8. Containers :*
+Go to containers in data storage and upload files by drag and drop.
+
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/84241e4a-1361-4f5c-839e-ef3aa22c2752)
+
+# STAGE 6 : STEPS FOR USING AZURE MAPS
+
+*1. Create an Azure Account:*
+Sign up for an Azure account if you don't have one at Azure Portal.
+
+*2. Navigate to Azure Maps:*
+In the Azure Portal, search for "Azure Maps" and select it from the results.
+
+*3. Create a New Azure Maps Resource:*
+Click on "Create a resource," search for "Azure Maps," and select "Azure Maps." Fill in the required details, including subscription, resource group, and unique name.
+
+*4. Configure Pricing Tier:*
+Choose a pricing tier based on your usage requirements and click "Review + create."
+
+*5. Review and Create:*
+Review your configuration, click "Create," and wait for the deployment to complete.
+
+*6. Access Azure Maps Resource:*
+Once deployed, go to the "Resource groups" section in the Azure Portal, click on your resource group, and explore your Azure Maps resource.
+
+*7. Retrieve Keys:*
+In the Azure Maps resource, go to the "Keys and Endpoint" section to retrieve the primary and secondary keys. These keys will be used to authenticate your requests to Azure Maps.
+
+*8. Integrate Azure Maps API:*
+In your application code, integrate the Azure Maps API using the obtained keys. Refer to the Azure Maps documentation for guidance on incorporating maps, geolocation, and other features.
+
+*9. Explore Azure Maps Features:*
+Leverage Azure Maps for various features, such as geocoding, route planning, and map visualizations based on your application requirements.
+
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/587def96-e474-4a48-a5ae-0250472c192e)
+
+#
