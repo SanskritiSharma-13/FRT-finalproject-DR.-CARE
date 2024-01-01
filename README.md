@@ -113,25 +113,31 @@ Once the repository is created, copy the repository URL. You'll use this URL to 
 
 # STAGE 3 : STEPS FOR DEPLOYING PROJECT FROM VSCODE TO GITHUB
 
-1. Download Git if not downloaded.
-
-*2. Open your project in VSCode, open the terminal, and run:*
-
+1. **Initialize Git in Your Project:**
+   Open your project in VSCode, open the terminal, and run:
+   ```bash
    git init
+   ```
 
-*4. Stage and commit your changes using:*
-   
+2. **Add and Commit Changes:**
+   Stage and commit your changes using:
+   ```bash
    git add .
    git commit -m "Initial commit"
+   ```
 
+3. **Create a New Repository on GitHub:**
+   Go to GitHub and create a new repository.
 
-*5. Go to GitHub and create a new repository or add a created repository.*
-   
+4. **Link Local Repository to GitHub:**
+   In the terminal, run:
+   ```bash
    git remote add origin <repository_url>
    git branch -M main
+   ```
 
-
-*6. Push your committed changes to the GitHub repository:*
-   
+5. **Push Your Code to GitHub:**
+   Push your committed changes to the GitHub repository:
+   ```bash
    git push -u origin main
-
+   ```
