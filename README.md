@@ -171,7 +171,7 @@ Once deployed, go to the Static Web Apps resource in the Azure Portal, find the 
 
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/ab9b7802-c414-4ab1-9733-10fed49b3493)
 
-# STAGE 5 : STEPS FOR USING AZURE STORAGE ACCOUNTS
+# STAGE 5 : STEPS FOR CREATING AZURE STORAGE ACCOUNTS
 
 
 *1. Navigate to Azure Portal:*
@@ -181,7 +181,7 @@ Go to the Azure Portal and log in.
 Click on "Create a resource," search for "Storage account," and select "Storage account - blob, file, table, queue."
 
 *3. Fill in Storage Account Details:*
-Provide the required details, including the subscription, resource group(same resource group as static web app), unique storage account name, location, and performance options.
+Provide the required details, including the subscription, resource group (same resource group as static web app), unique storage account name, location, and performance options.
 
 *4. Configure Advanced Settings (Optional):*
 Adjust advanced settings like the replication method, access tier, and networking configuration based on your requirements.
@@ -202,7 +202,7 @@ Go to containers in data storage and upload files by drag and drop.
 
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/8d58d22f-fb8b-4c88-a0d4-bbd76cc18c46)
 
-# STAGE 6 : STEPS FOR USING AZURE MAPS
+# STAGE 6 : STEPS FOR CREATING AZURE MAPS
 
 *1. Create an Azure Account:*
 Sign up for an Azure account if you don't have one at Azure Portal.
@@ -211,7 +211,7 @@ Sign up for an Azure account if you don't have one at Azure Portal.
 In the Azure Portal, search for "Azure Maps" and select it from the results.
 
 *3. Create a New Azure Maps Resource:*
-Click on "Create a resource," search for "Azure Maps," and select "Azure Maps." Fill in the required details, including subscription, resource group, and unique name.
+Click on "Create a resource," search for "Azure Maps," and select "Azure Maps." Fill in the required details, including subscription, same resource group, and unique name.
 
 *4. Configure Pricing Tier:*
 Choose a pricing tier based on your usage requirements and click "Review + create."
@@ -233,4 +233,72 @@ Leverage Azure Maps for various features, such as geocoding, route planning, and
 
 ![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/587def96-e474-4a48-a5ae-0250472c192e)
 
-#
+# STAGE 7 : STEPS FOR CREATING HEALTH BOT
+
+*1. Azure Portal:*
+Log in to the Azure Portal.
+
+*2. Create Health Bot Resource:*
+Click "Create a resource," search for "Health Bot," and select "Health Bot."
+
+*3. Fill Details:*
+Provide subscription, resource group, region, and a unique name for your Health Bot.
+
+*4. Configure Settings:*
+Set messaging endpoint, language, and time zone preferences.
+
+*5. Generate App ID and Password:*
+Create a Microsoft App ID and Password for authentication.
+
+*6. Optional Channels Setup:*
+If needed, configure channels (e.g., Teams, Web Chat) and obtain credentials.
+
+*7. Review and Create:*
+Review settings, click "Review + create," and then "Create."
+
+*8. Wait for Deployment:*
+Allow Azure to deploy your Health Bot.
+
+*9. Access Resource:*
+In the "Resource groups" section, explore your Health Bot resource.
+
+*10. Configure Scenarios:*
+Use the Health Bot management portal to set up health scenarios and prompts.
+
+*11. Test and Integrate:*
+Validate your Health Bot within Azure and integrate it into your applications or platforms as required.
+
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/432ad8a2-460b-47e4-94e6-98668232e9d5)
+
+# STAGE 8 : STEPS FOR INTEGRATING HEALTHBOT TO YOUR WEBSITE
+
+1. Once the resource is created, open the health bot management portal using the provided “Management portal link”.
+
+2. In the management portal, navigate to “Template Catalog” in the sidebar.
+
+3. Here, you will find various templates grouped by categories. Select a template that suits your requirements and click on “Open”.
+
+4. Click on “Import” from the pop-up window to import the selected template.
+
+*5. Get Bot Secret:*
+In the Azure Portal, go to your Health Bot resource, navigate to "Channels," and get the Bot Secret.
+
+*6. Configure Web Chat:*
+If using Web Chat, include the Bot Secret and your Web Chat secret in your website's code.
+
+*7. Implement Direct Line Integration:*
+For a custom integration, use the Direct Line API. Obtain the Direct Line secret from the Azure Portal and implement the integration in your website's code.
+
+*8. Include Health Bot Script:*
+Add the Health Bot Web Chat script to your website's HTML. Customize the script with your Bot ID and other relevant details.
+
+*9. Initialize Web Chat:*
+In your website's JavaScript, initialize the Web Chat with the required settings, including the Bot ID and Secret.
+
+*10. Handle User Interactions:*
+Implement the necessary logic to handle user interactions and messages sent to and received from the Health Bot.
+
+*11. Test Integration:*
+Test the Health Bot integration on your website to ensure that user inputs are correctly processed, and responses are displayed.
+
+![image](https://github.com/SanskritiSharma-13/FRT-finalproject-DR.-CARE/assets/149051370/97fa381e-08c5-4c61-9a64-c6c52c65e032)
